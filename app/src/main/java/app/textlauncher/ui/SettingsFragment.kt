@@ -1,4 +1,4 @@
-package app.olauncher.ui
+package app.textlauncher.ui
 
 import android.app.admin.DevicePolicyManager
 import android.content.ComponentName
@@ -20,25 +20,25 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import app.olauncher.BuildConfig
-import app.olauncher.MainViewModel
-import app.olauncher.R
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.databinding.FragmentSettingsBinding
-import app.olauncher.helper.animateAlpha
-import app.olauncher.helper.getColorFromAttr
-import app.olauncher.helper.isAccessServiceEnabled
-import app.olauncher.helper.isDarkThemeOn
-import app.olauncher.helper.isOlauncherDefault
-import app.olauncher.helper.isPackageInstalled
-import app.olauncher.helper.openAppInfo
-import app.olauncher.helper.openUrl
-import app.olauncher.helper.rateApp
-import app.olauncher.helper.setPlainWallpaper
-import app.olauncher.helper.shareApp
-import app.olauncher.helper.showToast
-import app.olauncher.listener.DeviceAdmin
+import app.textlauncher.BuildConfig
+import app.textlauncher.MainViewModel
+import app.textlauncher.R
+import app.textlauncher.data.Constants
+import app.textlauncher.data.Prefs
+import app.textlauncher.databinding.FragmentSettingsBinding
+import app.textlauncher.helper.animateAlpha
+import app.textlauncher.helper.getColorFromAttr
+import app.textlauncher.helper.isAccessServiceEnabled
+import app.textlauncher.helper.isDarkThemeOn
+import app.textlauncher.helper.isOlauncherDefault
+import app.textlauncher.helper.isPackageInstalled
+import app.textlauncher.helper.openAppInfo
+import app.textlauncher.helper.openUrl
+import app.textlauncher.helper.rateApp
+import app.textlauncher.helper.setPlainWallpaper
+import app.textlauncher.helper.shareApp
+import app.textlauncher.helper.showToast
+import app.textlauncher.listener.DeviceAdmin
 
 class SettingsFragment : Fragment(), View.OnClickListener, View.OnLongClickListener {
 

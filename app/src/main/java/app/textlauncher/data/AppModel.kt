@@ -1,4 +1,4 @@
-package app.olauncher.data
+package app.textlauncher.data
 
 import android.os.UserHandle
 import java.text.CollationKey

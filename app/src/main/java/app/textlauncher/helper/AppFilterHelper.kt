@@ -1,6 +1,6 @@
-package app.olauncher.helper
+package app.textlauncher.helper
 
-import app.olauncher.data.AppModel
+import app.textlauncher.data.AppModel
 
 interface AppFilterHelper {
     fun onAppFiltered(items:List<AppModel>)

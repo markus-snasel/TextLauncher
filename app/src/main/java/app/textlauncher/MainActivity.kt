@@ -1,4 +1,4 @@
-package app.olauncher
+package app.textlauncher
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -16,23 +16,23 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.databinding.ActivityMainBinding
-import app.olauncher.helper.hasBeenDays
-import app.olauncher.helper.hasBeenHours
-import app.olauncher.helper.isDarkThemeOn
-import app.olauncher.helper.isDefaultLauncher
-import app.olauncher.helper.isEinkDisplay
-import app.olauncher.helper.isOlauncherDefault
-import app.olauncher.helper.isTablet
-import app.olauncher.helper.openUrl
-import app.olauncher.helper.rateApp
-import app.olauncher.helper.resetLauncherViaFakeActivity
-import app.olauncher.helper.setPlainWallpaper
-import app.olauncher.helper.shareApp
-import app.olauncher.helper.showLauncherSelector
-import app.olauncher.helper.showToast
+import app.textlauncher.data.Constants
+import app.textlauncher.data.Prefs
+import app.textlauncher.databinding.ActivityMainBinding
+import app.textlauncher.helper.hasBeenDays
+import app.textlauncher.helper.hasBeenHours
+import app.textlauncher.helper.isDarkThemeOn
+import app.textlauncher.helper.isDefaultLauncher
+import app.textlauncher.helper.isEinkDisplay
+import app.textlauncher.helper.isOlauncherDefault
+import app.textlauncher.helper.isTablet
+import app.textlauncher.helper.openUrl
+import app.textlauncher.helper.rateApp
+import app.textlauncher.helper.resetLauncherViaFakeActivity
+import app.textlauncher.helper.setPlainWallpaper
+import app.textlauncher.helper.shareApp
+import app.textlauncher.helper.showLauncherSelector
+import app.textlauncher.helper.showToast
 import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {

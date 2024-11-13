@@ -1,8 +1,8 @@
-package app.olauncher.helper
+package app.textlauncher.helper
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import app.olauncher.R
+import app.textlauncher.R
 
 class FakeHomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

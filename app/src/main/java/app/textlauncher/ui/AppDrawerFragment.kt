@@ -1,4 +1,4 @@
-package app.olauncher.ui
+package app.textlauncher.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,20 +13,20 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Recycler
-import app.olauncher.MainViewModel
-import app.olauncher.R
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.databinding.FragmentAppDrawerBinding
-import app.olauncher.helper.hideKeyboard
-import app.olauncher.helper.isEinkDisplay
-import app.olauncher.helper.isSystemApp
-import app.olauncher.helper.openAppInfo
-import app.olauncher.helper.openSearch
-import app.olauncher.helper.openUrl
-import app.olauncher.helper.showKeyboard
-import app.olauncher.helper.showToast
-import app.olauncher.helper.uninstall
+import app.textlauncher.MainViewModel
+import app.textlauncher.R
+import app.textlauncher.data.Constants
+import app.textlauncher.data.Prefs
+import app.textlauncher.databinding.FragmentAppDrawerBinding
+import app.textlauncher.helper.hideKeyboard
+import app.textlauncher.helper.isEinkDisplay
+import app.textlauncher.helper.isSystemApp
+import app.textlauncher.helper.openAppInfo
+import app.textlauncher.helper.openSearch
+import app.textlauncher.helper.openUrl
+import app.textlauncher.helper.showKeyboard
+import app.textlauncher.helper.showToast
+import app.textlauncher.helper.uninstall
 
 
 class AppDrawerFragment : Fragment() {

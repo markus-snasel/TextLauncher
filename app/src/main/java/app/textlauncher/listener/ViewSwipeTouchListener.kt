@@ -1,4 +1,4 @@
-package app.olauncher.listener
+package app.textlauncher.listener
 
 import android.content.Context
 import android.view.GestureDetector
@@ -6,7 +6,7 @@ import android.view.GestureDetector.SimpleOnGestureListener
 import android.view.MotionEvent
 import android.view.View
 import android.view.View.OnTouchListener
-import app.olauncher.data.Constants
+import app.textlauncher.data.Constants
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay

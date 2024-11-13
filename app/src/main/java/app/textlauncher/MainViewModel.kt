@@ -1,4 +1,4 @@
-package app.olauncher
+package app.textlauncher
 
 import android.app.Application
 import android.content.ComponentName
@@ -14,14 +14,14 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import app.olauncher.data.AppModel
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
-import app.olauncher.helper.SingleLiveEvent
-import app.olauncher.helper.WallpaperWorker
-import app.olauncher.helper.getAppsList
-import app.olauncher.helper.isOlauncherDefault
-import app.olauncher.helper.showToast
+import app.textlauncher.data.AppModel
+import app.textlauncher.data.Constants
+import app.textlauncher.data.Prefs
+import app.textlauncher.helper.SingleLiveEvent
+import app.textlauncher.helper.WallpaperWorker
+import app.textlauncher.helper.getAppsList
+import app.textlauncher.helper.isOlauncherDefault
+import app.textlauncher.helper.showToast
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 

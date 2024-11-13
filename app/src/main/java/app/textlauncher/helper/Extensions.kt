@@ -1,4 +1,4 @@
-package app.olauncher.helper
+package app.textlauncher.helper
 
 import android.app.Activity
 import android.app.SearchManager
@@ -16,8 +16,8 @@ import android.view.View
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import androidx.annotation.RequiresApi
-import app.olauncher.BuildConfig
-import app.olauncher.data.Constants
+import app.textlauncher.BuildConfig
+import app.textlauncher.data.Constants
 
 fun View.hideKeyboard() {
     this.clearFocus()
@@ -53,7 +53,7 @@ fun Context.resetDefaultLauncher() {
             PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
             PackageManager.DONT_KILL_APP
         )
-        val selector = Intent(Intent.ACTION_MAIN)
+        val selector = Intent(this, FakeHomeActivity::class.java)
         selector.addCategory(Intent.CATEGORY_HOME)
         startActivity(selector)
         packageManager.setComponentEnabledSetting(

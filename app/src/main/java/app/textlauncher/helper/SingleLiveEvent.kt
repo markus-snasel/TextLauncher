@@ -1,4 +1,4 @@
-package app.olauncher.helper
+package app.textlauncher.helper
 
 import android.util.Log
 import androidx.annotation.MainThread

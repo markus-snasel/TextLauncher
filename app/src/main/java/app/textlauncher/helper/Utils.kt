@@ -1,4 +1,4 @@
-package app.olauncher.helper
+package app.textlauncher.helper
 
 import android.annotation.SuppressLint
 import android.app.SearchManager
@@ -35,11 +35,11 @@ import android.widget.Toast
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.appcompat.app.AppCompatDelegate
-import app.olauncher.BuildConfig
-import app.olauncher.R
-import app.olauncher.data.AppModel
-import app.olauncher.data.Constants
-import app.olauncher.data.Prefs
+import app.textlauncher.BuildConfig
+import app.textlauncher.R
+import app.textlauncher.data.AppModel
+import app.textlauncher.data.Constants
+import app.textlauncher.data.Prefs
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
@@ -389,7 +389,7 @@ fun openCalendar(context: Context) {
         context.startActivity(Intent(Intent.ACTION_VIEW, calendarUri))
     } catch (e: Exception) {
         try {
-            val intent = Intent(Intent.ACTION_MAIN)
+            val intent = Intent(context, FakeHomeActivity::class.java)
             intent.addCategory(Intent.CATEGORY_APP_CALENDAR)
             context.startActivity(intent)
         } catch (e: Exception) {

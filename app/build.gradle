@@ -39,7 +39,9 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
+    namespace 'app.textlauncher'
 }
 
 dependencies {

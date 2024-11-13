@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a Fork of the wonderful [Olauncher](https://github.com/tanujnotes/Olauncher).
+This is a fork of the wonderful [Olauncher](https://github.com/tanujnotes/Olauncher).
 
 ## About
 

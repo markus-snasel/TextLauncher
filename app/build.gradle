@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "app.olauncher"
+        applicationId "app.textlauncher"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode 86
